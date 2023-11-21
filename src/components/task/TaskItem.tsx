@@ -20,10 +20,10 @@ const StyledTaskHolder = styled.div`
   gap: 2rem;
 `;
 
-// interface taskProp {
-//   task: Tasks;
-//   handleDelete: (id: number) => void;
-// }
+interface taskProp {
+  task: Tasks;
+  handleDelete: (id: number) => void;
+}
 
 const TaskItem = ({ task, handleDelete }: taskProp) => {
   return (
